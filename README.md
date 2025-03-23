@@ -1,12 +1,8 @@
-# Autonomous Art
+# Airbus for AI
 
-[Manifesto](manifesto.md), [Commentaries](commentaries.md), [Discussion](https://github.com/thelastjosh/autonomous-art/discussions)
+[Summary](summary.md), [Dilemma](middlepowers.md), [Discussion](...)
 
-Authors: [Joshua Tan](https://joshuatan.com/research), [Primavera De Filippi](https://cyber.harvard.edu/people/pdefilippi)
-
-Thank you: Amy Whitaker, Jenna Caravello, Luke Nickel, Sade Abiodun, Jenny Liu Zhang, [DISI](https://disi.org/)
-
-> https://autonomous-art.vercel.app/
+Authors: Many people are working to make Airbus for AI a reality. See [About](about.md) for more details.
 
 Running the application locally:
 
