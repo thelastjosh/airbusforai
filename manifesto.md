@@ -1,71 +1,52 @@
-## I. Autonomy
+## Executive Summary
 
-To be autonomous is to be free from external control.
+Artificial intelligence (AI) is becoming central to economic productivity and national sovereignty, but its current frontier development is concentrated in a few dominant U.S. and Chinese firms. Many middle power countries like Canada, Germany, Japan, Spain, Sweden, Switzerland, and the U.K. have struggled to field competitive AI products despite substantial public and private investment across national labs and national champions (Allen, 2025; Council of the European Union, 2023; Escritt, 2023; Kreps, 2024; Scott, 2024; Stage et al., 2024; Stanford HAI, 2024). Insufficient funding, a talent/compensation gap, regulatory constraints, and fragmented markets all hinder their ability to scale AI initiatives effectively. As a result, directors in several national AI labs have called for more coordinated public interventions (Bengio, 2023; Valero & Crespo, 2024) while policymakers are debating the case for industrial policy interventions to support domestic AI firms (AI Now Institute, 2024; European Commission, 2025b; UK Government, 2025).
 
-Autonomous art is art that is autonomous and which acts in order to ensure its autonomy. Often, it is art that owns itself or which cannot be owned.
+If AI is to serve the economic and security interests of all countries, it must be developed in a way that balances public value generation with a credible business model and a pathway to scale in global markets. Any solution must also respond to emerging industrial trends in AI, including the increasing commodification of large language models (LLMs), the rise of open source, and the dramatically increasing salience of national security and geopolitics to trade in AI.
 
-## II. Examples
+There are precedents for such solutions. In particular, Airbus, originally developed by a set of middle powers to compete in aerospace, provides a successful example of an international public-private collaboration. This policy brief proposes a **Public AI Company** inspired by such models—a coordinated public-private partnership that ensures AI development serves shared national interests and maximizes public value rather than concentrating benefits in a handful of private entities headquartered in global superpowers. Drawing on decades of economic and public policy research as well as a technical analysis of current AI supply chains, this brief outlines why such a global approach is both necessary and achievable, and discusses some of the risks and challenges involved.
 
-Some autonomous artworks retain autonomy by constantly running away from ownership.
+## The Middle Powers' Dilemma
 
--   Caleb Larsen's _A Tool to Deceive and Slaughter_ (2009) is a physical sculpture that is perpetually attempting to auction itself on eBay. It is autonomous art because its operations are defined by software, running on its own hardware device, that automatically puts the artwork for sale on eBay, and because it resists ownership through a legal contract that ensures it is placed on a recurring internet auction.
+Middle power countries face structural barriers that prevent them from building globally competitive frontier AI systems.
 
--   Sarah Friend's _Lifeforms_ (2021) are NFT-based entities, which need regular care in order to thrive. How do you care for these lifeforms? Within 90 days of receiving it, you must give it away, otherwise it dies. They are autonomous art because their operations are dictated by a blockchain-based smart contract that is not controlled by anyone and because they resist ownership by requiring the NFT to be transferred every 90 days.
+**_Scale_** At every stage of the supply chain—data, compute, model training, deployment, and talent—scale dynamics favor the largest, most vertically-integrated players. These monopoly pressures have stratified the market into a top tier of U.S. and Chinese hyperscalers (such as OpenAI, Google, Microsoft, Alibaba, Anthropic, DeepSeek) and a fragmented landscape of dependent smaller firms. By way of example: ChatGPT has approximately 79.8% of the global consumer chatbot market as of July 2025. Perhaps the best-known “sovereign” competitor, Mistral’s Le Chat, has less than 4% market penetration **in France**, its home market (Statcounter, 2025).
 
-Some autonomous artworks ensure their own autonomy by instrumentalizing humans to help them reproduce and evolve over time.
+**_Limited Markets_** States’ default approach has been to support the growth of local private firms (Department of Finance, Canada, 2024; European Commission, 2024; Ministry of Economy, Trade and Industry, Japan, 2024; UK Department for Science, Innovation and Technology, 2023). But even such national champions with overt state support struggle to access risk capital or penetrate markets outside their home market—consider Mistral’s performance in France compared toGermany (Dillet, 2025). There is currently insufficient economic incentive for new private sector entrants—companies like Sakana, Lighton, and Cohere—to develop competitive frontier models, especially the large pre-trained models that ground the modern AI stack (Azoulay et al., 2024).
 
--   Primavera De Filippi's _Plantoid_ (2015) is a mechanical sculpture that feeds off cryptocurrency and leverages these funds to hire artists to replicate itself. It is autonomous art because (1) its operations are dictated by a blockchain-based smart contract that is not controlled by anyone, (2) it is capable of evolving and reproducing itself through the help of humans, and (3) its copyright provides resistance to appropriation.
+**_Foreign Capture_** Public subsidies to private champions risk later rent extraction or foreign expropriation by acquisition—consider for example AMD’s acquisition of Finland’s Silo, which had been supported by Finnish/EU supercomputing resources (Cherney, 2024; LUMI, 2024).
 
-Some autonomous artworks take the form of objects that are already autonomous.
+**_Fragmented Sovereigns_** Apart from supporting domestic firms, several middle powers have adopted public AI strategies anchored by large public compute investments and domestic production of large language models within national labs (European Commission, 2024; Innovation, Science and Economic Development Canada, 2024; Sastry et al., 2024; Takano et al., 2024). Such investments can produce interesting research outputs, but public AI investments of $30M for a new public model or $500M for a new public data center do not meaningfully compete with the dominance of the leading U.S. and Chinese frontier labs. Fragmentation of these national initiatives also results in duplicated efforts and contributes to scale problems, preventing coordinated advances in AI.
 
--   Eduardo Kac's _Alba_ (2000), a genetically-engineered fluorescent rabbit. It is autonomous art because rabbits are living organisms which are always to some degree autonomous, and because Alba, the rabbit, eats to survive and could potentially reproduce to create more fluorescent rabbits, though it died without doing so.
+**_Research, Not Development_** States often fund national labs to build frontier models, such as Sweden’s GPT-SW3, Singapore’s SEA-LION, Spain’s Salamandra, or the EU’s many pan-European research consortia (Ekgren et al., 2024; European Commission, 2025a; Gonzalez-Agirre et al., 2025; Ng et al., 2025). Yet these labs, endowed with some of the world’s most powerful supercomputers, struggle with bureaucratic constraints, no access to risk capital, a lack of skills for product development and subsequent commercialisation, high sensitivity to legal risk (e.g. on copyright), and the challenge of competing with private firms with more focus and greater agility. The result is a fragmented landscape of publicly-funded models that are not actually being used.
 
-Some autonomous artworks acquire autonomy by owning themselves.
+| How does your country access frontier AI?                                       | Is it competitive with frontier labs and models?                                     | Does it generate public value?                      | Does it protect national sovereignty?                 |
+|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------|
+| **Import private models** (e.g. OpenAI, Anthropic)                               | ✅                                                                                     | ❌ Most value is captured privately.                | ❌                                                     |
+| **Import open models** (e.g. Meta, DeepSeek)                                     | ⚠️ Cheap, but not best-in-class.                                                      | ✅                                                 | ⚠️ Production still lives abroad.                      |
+| **Back national champions and local startups** (e.g. Mistral)                    | ⚠️ Not in consumer or pretraining, but some traction in enterprise.                  | ⚠️ Spillovers, but no public accountability.        | ⚠️ Threat of foreign acquisition (e.g. DeepMind, Silo). |
+| **Fund national AI labs** (e.g. Swiss AI)                                        | ❌ Note: a bit of traction in public sector use.                                      | ✅                                                 | ✅                                                     |
+| **Fund research consortia** (e.g. OpenEuroLLM, CERN for AI proposals)           | ❌ Wrong incentives for product. Limited access to capital.                           | ✅                                                 | ✅                                                     |
 
--   _Terra0_ (2016) is a prototype of a self-sufficient forest operated as a DAO, designed to sell its own wood in order to accumulate capital. The capital accumulated can then be used by the forest to purchase its own land, eventually extending its territory. It is autonomous art because (1) the DAO's operations are dictated by a blockchain-based smart contract that is not controlled by anyone, (2) the DAO is intended to help the forest emancipate itself by purchasing its own land and expanding its territory over time.
+## The Airbus Model
 
-## III. Non-examples
+The Airbus story began in the late 1960s as European governments recognized that their domestic aerospace industries were struggling to compete with dominant American firms Boeing and McDonnell Douglas. The fragmented nature of European aviation, with multiple national firms developing independent aircraft models, led to inefficiencies and an inability to achieve the economies of scale necessary for global competitiveness. In response, France, Germany, and later the U.K. and Spain collaborated to create Airbus, a consortium that pooled resources, expertise, and funding to develop a competitive alternative to American aviation giants.
 
-Art that merely depicts or explores autonomy is not autonomous art. Art that explores and foregrounds autonomy itself is typically conceptual in nature, but autonomous art is not merely a form of conceptual art. We can imagine autonomous art whose autonomy is not conceptual but merely incidental to its material, aesthetic, or technical execution. And we can imagine a day when all art becomes autonomous for reasons of mere convenience, when autonomy becomes part of the legal and technical infrastructure of art.
+**Government support** played a crucial role in Airbus' success. European states provided financial backing and advanced market commitments, ensuring that Airbus had the stability to undertake complex aircraft development projects. This public-private partnership allowed Airbus to invest in cutting-edge research, standardized manufacturing, and coordinated supply chains that spanned multiple countries. The Airbus A300, the consortium’s first commercial aircraft, demonstrated the viability of this model by successfully entering the market against well-established and dominant American competitors.
 
-Most interactive art is not autonomous art. Interactive art emphasizes the agency of humans rather than that of the artwork itself.
+Over time, Airbus refined its approach by embracing **supply chain specialization**. Each participating country focused on different aspects of aircraft production—France on avionics and final assembly, Germany on fuselage construction, the U.K. on wings, and Spain on tail sections. This structured division of labor contributed to efficiency while maintaining national contributions and industrial expertise. 
 
--   Jason Rohrer's _Passage_ (2007) is an interactive game that allows a player to play a human life from beginning to end. It is not autonomous art because it has no autonomy on its own nor does it act to ensure its own autonomy.
+Of course, Airbus has faced challenges—such as the failure of the A380 (Seabright, 2011)—and the 1960s aerospace industry differs in important ways from AI today (see Appendix: The 1960s Aerospace Industry). But Airbus remains one of the most successful examples of coordinated industrial policy in the modern era, and a promising model for global AI development.
 
-Memes are not autonomous art, but this is contentious. Memes are ideas and behaviors that spread by means of imitation within a culture. Manifestations of memes can be art, and particular memes can be art. But as an idea rather than as an object in the world, memes do not have agency, i.e. the ability to act, which is critical in the definition of autonomous art. That said, smart contracts and NFTs are patterns of information in a blockchain; digital art is a pattern of information on a computer; and even physical objects are patterns of information at the quantum level. If a meme is a self-replicating, self-preserving pattern of information in a mind (i.e. an idea) or in a culture (i.e. a set of behaviors), perhaps one day they may rise to the level of objects with agency.
+## An Airbus for AI
+Inspired by Airbus, we propose that Canada, Germany, Japan, Singapore, South Korea, Spain, Sweden, Switzerland, France, the U.K., and other middle powers unify **their existing sovereign AI efforts** into a **Public AI Company**—a competitive frontier AI lab to build and commercialize AI in the public interest.
 
--   Sol LeWitt's _Wall Drawings_ are a series of instructions for producing drawings. They are not autonomous art because the artworks have no agency through which they can ensure their own autonomy.
+### How?
+First, each participating nation needs to identify or organize at least one **_national entity_** which will participate in the Public AI Company. Each national entity should have top-level political support and frontier AI capabilities in at least one component of the AI stack. Depending on the country and its sovereign AI strategy, this entity may be an existing private national champion (e.g. France’s Mistral, Canada’s Cohere), a public national lab (e.g. Spain’s BSC, Japan’s RIKEN), an existing regional coalition (e.g. New Nordics AI), or a new public-private partnership.
 
-Most autonomous artists are not autonomous art. No matter how intelligent a robot or a piece of software may be, it does not qualify as autonomous art unless it is striving to ensure its autonomy. While autonomous art might involve human interaction, the interaction is always instrumental to the artwork's autonomy. In generative art, humans typically instrumentalize autonomous systems in order to manifest new artworks. In autonomous art, autonomous artworks instrumentalize humans in order to further their autonomy. Most automated systems that generate artworks, therefore, do not qualify as autonomous art. Further, many autonomous systems for generating art are not posed as art or as artists.
+Second, integrate these national entities into an **_Airbus-style enterprise_** that coordinates key shared activities:
+1. model building, especially pre-training,
+2. resource sharing, especially compute and expertise, and
+3. market strategy, including shared branding.
 
--   Tinguely's _Metamatics_ (1959) is a semi-autonomous kinetic sculpture that also produces new works of art. While clearly posed as art, it is not autonomous because it is not intended to further its own interests but is rather being instrumentalized by third parties to enjoy themselves.
-
--   Kitty Simpson and Pindar Van Arman's _[Artonomous](https://artonomo.us/)_ (2020) is a robot artist that leverages machine learning to draw people's portraits. While the robot is posed as art (unlike Ferrer et al.'s similar [Gaka-chu](https://gaka-chu.online/)), it is only autonomous in a limited context, and does not seek to ensure its autonomy in any way. The robot is a mere instrument for people to obtain portraits.
-
--   Holly Herndon's _[Holly+](https://holly.plus/)_ (2022) is Holly's digital twin, leveraging AI vocal models to convert any musical piece submitted by the public into a new musical piece sung back in Herndon's distinctive voice. The vocal model IP for Holly+ will be owned by a DAO coop which can vote and approve official usage. The funds generated from the usage and licensing of the tools will be shared with the co-op to fund new tool development. While the DAO is to some extent autonomous, it is not itself posed as art. If the DAO were posed as part of Holly+ (or as a separate artwork), it might be regarded as a form of autonomous art, provided that the objective of the DAO is to sustain itself over time to produce more artworks.
-
-## IV. Why
-
-Because it is possible.
-
-Because art can be separate from the artist that made it.
-
-Because we want to create new business models for art that do not rely on the scarcity and exclusivity of ownership or copyright.
-
-Because art should be available for everyone to enjoy.
-
-Because autonomous art has the potential to challenge and disrupt existing cultural norms and conventions, pushing the boundaries of what is currently accepted as "art" in society.
-
-Because we reject the commodification of art through property and intellectual property, along with the constraints that property imposes.
-
-Because blockchain enables new opportunities for artworks to emancipate themselves from their creators, and yet most NFT art is as interesting and creative as the frames of a dickspin gif.
-
-Because we want to retain art as the true interface between artists and audiences---not galleries, dealers, critics, collectors, resellers, markets, or other institutions of the art world.
-
-Because we want to make art that is an end in itself and not a means to an end.
-
-Because we want to show that art and culture can thrive in an increasingly automated world.
-
-## V. Art
-
-Autonomous art, once made, must be free from the artist which made it. Just as the artistic quality of an artist's artwork should be an expression of the artist's own actions, the artistic quality of an autonomous artwork should be an expression of the artwork's own actions.
+Third, each national entity should handle localization for language, culture, and in-country data, deployment in local data centers for inference, and public engagement with citizens and political leadership. Depending on the local commercial and political environment, each national entity may consider adopting a **_public utility_** business model (see Appendix: AI as a Public Utility).
