@@ -38,17 +38,11 @@ export default function PasswordScreen({ onPasswordCorrect }) {
                 Read the original policy brief →
               </a>
             </p>
-            <p className="text-sm text-blue-200">
-              This site will be released to the public in late September.
-            </p>
           </div>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
-            <label htmlFor="password" className="block text-sm font-medium text-white mb-2">
-              Enter Password
-            </label>
             <input
               type="password"
               id="password"
@@ -77,7 +71,7 @@ export default function PasswordScreen({ onPasswordCorrect }) {
 
         <div className="mt-6 text-center">
           <p className="text-blue-200 text-xs">
-            Contact josh@metagov.org for access credentials
+            This site will be released to the public in late September. Contact josh@metagov.org for access credentials.
           </p>
         </div>
       </div>
