@@ -5,9 +5,7 @@ import { IoIosMenu } from "react-icons/io";
 import useOutsideClick from "../hooks/useOutsideClick"
 
 const LINKS = [
-  { label: "Manifesto", href: "/" },
-  { label: "Commentaries", href: "/commentaries" },
-  { label: "Discussion", href: "https://signal.group/#CjQKIGr0eKL8jL4icLLq5HrWQsWyvEtt8MhXGSsBDliC4gINEhBEy7q_0Axd2OvLToiQG3cF" },
+  { label: "Executive Summary", href: "/" },
   { label: "About", href: "/about" },
 ]
 
