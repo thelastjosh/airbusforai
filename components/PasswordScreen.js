@@ -20,13 +20,13 @@ export default function PasswordScreen({ onPasswordCorrect }) {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 flex items-center justify-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 flex items-center justify-center px-4 font-body">
       <div className="max-w-md w-full bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-white/20">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-white mb-4">Airbus for AI</h1>
           <div className="text-blue-100 text-lg leading-relaxed">
             <p className="mb-4">
-              Airbus for AI is a proposal for a third-way frontier lab that brings together the sovereign initiatives of several middle powers.
+              Airbus for AI is a proposal for a third-way frontier lab built out of the sovereign AI initiatives of several middle powers.
             </p>
             <p className="mb-4">
               <a 
@@ -35,11 +35,11 @@ export default function PasswordScreen({ onPasswordCorrect }) {
                 rel="noopener noreferrer"
                 className="text-blue-300 hover:text-blue-200 underline transition-colors duration-200"
               >
-                Read our comprehensive policy brief →
+                Read the original policy brief →
               </a>
             </p>
             <p className="text-sm text-blue-200">
-              The full site will be ready in a couple of weeks.
+              This site will be released to the public in late September.
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function PasswordScreen({ onPasswordCorrect }) {
 
         <div className="mt-6 text-center">
           <p className="text-blue-200 text-xs">
-            Contact us for access credentials
+            Contact josh@metagov.org for access credentials
           </p>
         </div>
       </div>
